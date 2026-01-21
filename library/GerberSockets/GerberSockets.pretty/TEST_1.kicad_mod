@@ -1,0 +1,236 @@
+
+(footprint "TEST_1"
+	(version 20241229)
+	(generator "GerberSockets_generator")
+	(generator_version "0.1")
+	(layer "F.Cu")
+	(descr "ASCII GerberSocket for TEST_1 net (7 circles, 0.125 mm pad)")
+	(property "Reference" "GS**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b168c796-d1aa-466f-aab0-2aa34d12a994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TEST_1"
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b6490fae-b668-4290-8566-187579258647")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "818b3278-b190-443d-9529-e7f11b9f5ab2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TEST_1 GerberSocket"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e10e013c-337c-4cc7-af6c-8f14ce380af6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3de696e0-d6ae-43c1-a3cd-f27e74ffb301")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f58585d6-769a-45c7-bda1-ae9ae549fb74")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "50baf855-dc11-42cb-adb8-8c9574b2f90d")
+	)
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.00999)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "b665d024-2a64-48f0-9d92-59d695e334f7")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.01084)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "6f6598fa-b396-434a-887a-4d4ef7d50685")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.02069)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "83b56a0a-2753-48aa-918a-493b9eabb187")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.03083)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "10e85b7e-6548-410b-bc41-516a84ae9283")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.04084)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "163c7e17-38b2-4ca0-b085-f893f6438c3a")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.05095)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "78897453-2614-47ed-92ec-e4f6cb8d16e0")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.06049)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "98b24be4-208d-4b0a-ba35-eb13131b5ca7")
+	)
+
+	(fp_text user "${REFERENCE}"
+		(at 0 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1a601b18-c8d9-4f84-b77d-6381d71ec81b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.125 0.125)
+		(layers "F.Cu")
+		(uuid "af52b5da-ef77-4667-8acc-025fa70047ca")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "774e7e8d-83a8-4f51-898d-edba354f4ce1")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.495722 -0.065263) (xy 0.46194 -0.191342) (xy 0.396677 -0.304381) (xy 0.304381 -0.396677) (xy 0.191342 -0.46194)
+				(xy 0.065263 -0.495722) (xy -0.065263 -0.495722) (xy -0.191342 -0.46194) (xy -0.304381 -0.396677)
+				(xy -0.396677 -0.304381) (xy -0.46194 -0.191342) (xy -0.495722 -0.065263) (xy -0.495722 0.065263)
+				(xy -0.46194 0.191342) (xy -0.396677 0.304381) (xy -0.304381 0.396677) (xy -0.191342 0.46194) (xy -0.065263 0.495722)
+				(xy 0.065263 0.495722) (xy 0.191342 0.46194) (xy 0.304381 0.396677) (xy 0.396677 0.304381) (xy 0.46194 0.191342)
+				(xy 0.495722 0.065263)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

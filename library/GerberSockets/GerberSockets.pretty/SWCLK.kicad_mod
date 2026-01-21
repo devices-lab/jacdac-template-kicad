@@ -1,0 +1,224 @@
+
+(footprint "SWCLK"
+	(version 20241229)
+	(generator "GerberSockets_generator")
+	(generator_version "0.1")
+	(layer "F.Cu")
+	(descr "ASCII GerberSocket for SWCLK net (6 circles, 0.125 mm pad)")
+	(property "Reference" "GS**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2358c152-55db-45ed-8acc-d78807df40a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SWCLK"
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8221d271-e2b5-410b-9a9b-a82f36713ac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9913ac7-7c16-4bd2-96e1-c44acfe9ba4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SWCLK GerberSocket"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bf988b8-cbb9-4fd8-8497-3482a3e9f7da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18b24f6e-81cd-4aba-abe8-04fe558ca301")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "386020c6-01f9-45bf-b083-30d0a757fe1b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fcf60ff7-0002-4276-84a1-c2c7cc0e2d4c")
+	)
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.00999)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "68c29ed8-e772-4712-ab64-ab324ea87f89")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.01083)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "5f62d07f-5e4f-4b32-9a8c-1e4e5577101e")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.02087)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "88a1327d-cc4f-4f93-a892-386fd84da348")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.03067)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "0ba4b0ce-f8cc-4a81-8f5b-b97fa4852568")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.04076)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "c479cca3-6923-426c-83e5-cda7d882b724")
+	)
+
+
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.05075)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "6ed4ad34-a843-4b10-87c8-5378b8a8313b")
+	)
+
+	(fp_text user "${REFERENCE}"
+		(at 0 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5fb6026b-2542-4e14-a796-925f20e48b63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.125 0.125)
+		(layers "F.Cu")
+		(uuid "3775e2b9-7e4f-4a69-8960-f06348d8c334")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "86535f8e-c9a0-4ef8-8f80-15fdaa1c01ba")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.495722 -0.065263) (xy 0.46194 -0.191342) (xy 0.396677 -0.304381) (xy 0.304381 -0.396677) (xy 0.191342 -0.46194)
+				(xy 0.065263 -0.495722) (xy -0.065263 -0.495722) (xy -0.191342 -0.46194) (xy -0.304381 -0.396677)
+				(xy -0.396677 -0.304381) (xy -0.46194 -0.191342) (xy -0.495722 -0.065263) (xy -0.495722 0.065263)
+				(xy -0.46194 0.191342) (xy -0.396677 0.304381) (xy -0.304381 0.396677) (xy -0.191342 0.46194) (xy -0.065263 0.495722)
+				(xy 0.065263 0.495722) (xy 0.191342 0.46194) (xy 0.304381 0.396677) (xy 0.396677 0.304381) (xy 0.46194 0.191342)
+				(xy 0.495722 0.065263)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

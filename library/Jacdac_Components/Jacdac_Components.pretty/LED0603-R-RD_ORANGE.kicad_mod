@@ -1,0 +1,141 @@
+(footprint "LED0603-R-RD_ORANGE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7d5edaf8-5742-4dbd-91b6-aa38b09e68f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED0603-R-RD_ORANGE"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87a7c50f-e030-41dc-a300-e029014cf6d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.05 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe1e4e07-0d4f-4216-b4b8-220c0cab98c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.05 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9def72f4-705a-4d9f-8af6-73943e73f9d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 0.325)
+		(end -0.3 -0.325)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f591842d-811d-4029-9400-8e1422ca7d49")
+	)
+	(fp_line
+		(start -0.25 0)
+		(end 0.3 -0.325)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d993c090-1630-48ff-b9dc-a5a6c42d1e02")
+	)
+	(fp_line
+		(start -0.25 0)
+		(end 0.3 0.325)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eabd3530-c151-4c63-a1c5-8efff033a6f8")
+	)
+	(fp_line
+		(start 0.3 0.325)
+		(end 0.3 -0.325)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cac211cf-1de0-4f50-a2c3-d197a1e69191")
+	)
+	(fp_circle
+		(center -1.175 -0.525)
+		(end -1.1 -0.525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "52a52af8-bc01-4829-857e-676aadd96c30")
+	)
+	(fp_circle
+		(center -1.175 -0.525)
+		(end -1.1 -0.525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "12c34053-2094-492f-86f4-821dd436a24b")
+	)
+	(pad "1" smd rect
+		(at 0.85 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7176b92-4557-414d-a92e-1041962c5b27")
+	)
+	(pad "2" smd rect
+		(at -0.85 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e0f21ed-bfeb-4c2f-8a5e-fcf3c05d3a05")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/Jacdac_Components/Jacdac_Components.3dshapes/LED0603-RD_ORANGE.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

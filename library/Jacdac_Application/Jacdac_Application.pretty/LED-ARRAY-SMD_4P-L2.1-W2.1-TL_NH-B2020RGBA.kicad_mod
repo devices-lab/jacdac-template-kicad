@@ -1,0 +1,133 @@
+(footprint "LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.55 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e546e53e-e733-405f-9dc3-5667b61c9215")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA"
+		(at 0 4.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e870d8a6-6df8-4de5-8b3b-bebb0bdcb42c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ff84d2b-2d36-48be-bcd2-55ad319c1325")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb506cb9-8f84-46a8-982a-4c4be70a1110")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.3875 0.5625)
+		(end 1.7625 0.5625)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2b1d3b5-5131-4b36-a1bc-7428ac4f914a")
+	)
+	(fp_line
+		(start 1.575 0.375)
+		(end 1.575 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2070ed66-21f7-473f-ace9-b139f8fe7880")
+	)
+	(fp_circle
+		(center -1.175 -1.025)
+		(end -1.1 -1.025)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3598ff07-4e26-43c9-833e-cc38ba03bcde")
+	)
+	(fp_circle
+		(center -1.175 -1.025)
+		(end -1.1 -1.025)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "03563404-f5fd-4827-8cbd-037936f8e015")
+	)
+	(pad "1" smd rect
+		(at -0.85 -0.55)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "30905aa2-271e-4a16-9aa3-7ce0ab803ffa")
+	)
+	(pad "2" smd rect
+		(at 0.85 -0.55)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e7b741c4-9fb0-4d23-bb58-19d44360d18b")
+	)
+	(pad "3" smd rect
+		(at 0.85 0.55)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fbf33507-589b-48ac-9efa-deacb55de3d0")
+	)
+	(pad "4" smd rect
+		(at -0.85 0.55)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bc6e7f5a-711e-45a6-99f2-96f81fa81c8c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/Jacdac_Application/Jacdac_Application.3dshapes/LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,21 @@
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" fill-rule="evenodd" width="6.0mm" height="6.0mm" viewBox="0 0 6.0 6.0" id="Y03eC0qzQGNqyp8v-6TP" sodipodi:docname="copy.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25)">
+  <defs id="defs1">
+    <mask id="Y03eC0qzQGNqyp8v-6TP_clear-1" fill="#000" stroke="#000">
+      <g id="g1">
+        <rect x="-9904.5" y="-9904.5" width="31349.5" height="19809" fill="#fff" id="rect1"/>
+      </g>
+    </mask>
+  </defs>
+  <g inkscape:label="[fixed] BG" inkscape:groupmode="layer" sodipodi:insensitive="true" id="g7" style="display:inline">
+    <rect x="0" y="0" width="6.0" height="6.0" style="fill:#FFFFFF;fill-opacity:1;stroke:none" id="rect7"/>
+  </g>
+  <g inkscape:label="F.SilkS" inkscape:groupmode="layer" id="g8" style="display:inline">
+    <g transform="matrix(0.001,0,0,-0.001,11.15564,11.106813)" fill="currentColor" stroke="currentColor" id="g5">
+      <!--outline of both chevrons-->
+      <path d="m -8366.1,7484 392.7,-76.3 m -392.7,76.3 a 2999.9809,2999.9809 0 0 1 882.1,882.1 l 83.2,-391.3 m -83.2,391.3 -399.5,-21 m -468.6,-461.4 -14,-399.7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="200" id="path4" style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1" transform="translate(9.819044e-5,-7.877415e-5)"/>
+      <path d="m -8399.3,6943.8 -117.7,39.3 -210.4,130.4 -160.4,188.5 -95.1,228.5 -20,122.5 v 0 l -24.2,-10.1 -62.1,-24.7 -126.1,-44.5 -128.3,-37.8 -130,-31 -65.7,-12.9 h 0.1 l -87.6,-18.6 -147.5,-101.4 -97.5,-150.2 -32.7,-176 37.3,-175.1 101.4,-147.5 150.1,-97.6 176,-32.6 87.6,18.6 v 0 l -21.9,-4.3 127.3,23.5 250.4,65.9 244.7,84.5 237.7,102.6 114.6,60 v 0" id="path2" inkscape:label="path2" transform="translate(9.819044e-5,-7.877415e-5)"/>
+      <path d="m -6943.8,8399.3 -39.3,117.7 -130.4,210.4 -188.5,160.4 -228.5,95.1 -122.5,20 v 0 l 10.1,24.2 24.7,62.1 44.5,126.1 37.8,128.3 31,130 12.9,65.7 18.6,87.5 101.4,147.5 150.2,97.5 176,32.7 175.1,-37.3 147.5,-101.4 97.6,-150.1 32.6,-176 -18.6,-87.6 v 0 l 4.3,21.9 -23.5,-127.3 -65.9,-250.4 -84.5,-244.7 -102.6,-237.7 -60,-114.6 v 0" id="path3" inkscape:label="path3" transform="translate(9.819044e-5,-7.877415e-5)"/>
+      <path d="m -6611.6,9352.1 a 450.04111,450.04111 0 0 1 -880.4,187.2 m -150.9,-512.2 a 2549.9911,2549.9911 0 0 1 150.9,512.2 m 548.2,-1140 a 799.95543,799.95543 0 0 1 -709.2,603.6 m 709.2,-603.6 a 3450.0143,3450.0143 0 0 1 336.5,974.7 M -9002.9,7653 a 800.01891,800.01891 0 0 1 603.6,-709.2 M -9374,6607.3 a 3449.9695,3449.9695 0 0 1 974.7,336.5 M -9539.2,7492 a 450.04111,450.04111 0 0 1 187.1,-880.4 m -187.1,880.4 a 2549.9805,2549.9805 0 0 1 512.1,150.9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" id="path1" inkscape:label="path1" style="display:inline"/>
+    </g>
+  </g>
+</svg>

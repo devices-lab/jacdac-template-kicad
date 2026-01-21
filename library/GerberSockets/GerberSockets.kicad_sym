@@ -1,0 +1,797 @@
+
+    (kicad_symbol_lib
+        (version 20241209)
+        (generator "GerberSockets_generator")
+        (generator_version "0.1")
+    
+        (symbol "JD_PWR"
+            (pin_numbers
+                (hide yes)
+            )
+            (exclude_from_sim no)
+            (in_bom no)
+            (on_board yes)
+            (property "Reference" "GS"
+                (at 0 3.048 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                )
+            )
+            (property "Value" "JD_PWR"
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Footprint" "GerberSockets:JD_PWR"
+                (at 0 -6.604 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Datasheet" ""
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Description" "ASCII GerberSocket for net JD_PWR"
+                (at 0 -9.144 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (symbol "JD_PWR_0_1"
+                (arc
+                    (start 6.35 -2.54)
+                    (mid 3.7874 0)
+                    (end 6.35 2.54)
+                    (stroke
+                        (width 0)
+                        (type default)
+                    )
+                    (fill
+                        (type none)
+                    )
+                )
+            )
+            (symbol "JD_PWR_1_1"
+                (text "JD_PWR GerberSocket"
+                    (at 0 -4.064 0)
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (pin bidirectional line
+                    (at 0 0 0)
+                    (length 3.81)
+                    (name "JD_PWR"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                    (number "1"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                )
+            )
+            (embedded_fonts no)
+        )
+    
+
+        (symbol "JD_DATA"
+            (pin_numbers
+                (hide yes)
+            )
+            (exclude_from_sim no)
+            (in_bom no)
+            (on_board yes)
+            (property "Reference" "GS"
+                (at 0 3.048 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                )
+            )
+            (property "Value" "JD_DATA"
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Footprint" "GerberSockets:JD_DATA"
+                (at 0 -6.604 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Datasheet" ""
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Description" "ASCII GerberSocket for net JD_DATA"
+                (at 0 -9.144 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (symbol "JD_DATA_0_1"
+                (arc
+                    (start 6.35 -2.54)
+                    (mid 3.7874 0)
+                    (end 6.35 2.54)
+                    (stroke
+                        (width 0)
+                        (type default)
+                    )
+                    (fill
+                        (type none)
+                    )
+                )
+            )
+            (symbol "JD_DATA_1_1"
+                (text "JD_DATA GerberSocket"
+                    (at 0 -4.064 0)
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (pin bidirectional line
+                    (at 0 0 0)
+                    (length 3.81)
+                    (name "JD_DATA"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                    (number "1"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                )
+            )
+            (embedded_fonts no)
+        )
+    
+
+        (symbol "GND"
+            (pin_numbers
+                (hide yes)
+            )
+            (exclude_from_sim no)
+            (in_bom no)
+            (on_board yes)
+            (property "Reference" "GS"
+                (at 0 3.048 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                )
+            )
+            (property "Value" "GND"
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Footprint" "GerberSockets:GND"
+                (at 0 -6.604 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Datasheet" ""
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Description" "ASCII GerberSocket for net GND"
+                (at 0 -9.144 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (symbol "GND_0_1"
+                (arc
+                    (start 6.35 -2.54)
+                    (mid 3.7874 0)
+                    (end 6.35 2.54)
+                    (stroke
+                        (width 0)
+                        (type default)
+                    )
+                    (fill
+                        (type none)
+                    )
+                )
+            )
+            (symbol "GND_1_1"
+                (text "GND GerberSocket"
+                    (at 0 -4.064 0)
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (pin bidirectional line
+                    (at 0 0 0)
+                    (length 3.81)
+                    (name "GND"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                    (number "1"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                )
+            )
+            (embedded_fonts no)
+        )
+    
+
+        (symbol "SWDIO~^"
+            (pin_numbers
+                (hide yes)
+            )
+            (exclude_from_sim no)
+            (in_bom no)
+            (on_board yes)
+            (property "Reference" "GS"
+                (at 0 3.048 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                )
+            )
+            (property "Value" "SWDIO~^"
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Footprint" "GerberSockets:SWDIO~^"
+                (at 0 -6.604 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Datasheet" ""
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Description" "ASCII GerberSocket for net SWDIO~^"
+                (at 0 -9.144 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (symbol "SWDIO~^_0_1"
+                (arc
+                    (start 6.35 -2.54)
+                    (mid 3.7874 0)
+                    (end 6.35 2.54)
+                    (stroke
+                        (width 0)
+                        (type default)
+                    )
+                    (fill
+                        (type none)
+                    )
+                )
+            )
+            (symbol "SWDIO~^_1_1"
+                (text "SWDIO~^ GerberSocket"
+                    (at 0 -4.064 0)
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (pin bidirectional line
+                    (at 0 0 0)
+                    (length 3.81)
+                    (name "SWDIO~^"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                    (number "1"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                )
+            )
+            (embedded_fonts no)
+        )
+    
+
+        (symbol "SWCLK"
+            (pin_numbers
+                (hide yes)
+            )
+            (exclude_from_sim no)
+            (in_bom no)
+            (on_board yes)
+            (property "Reference" "GS"
+                (at 0 3.048 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                )
+            )
+            (property "Value" "SWCLK"
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Footprint" "GerberSockets:SWCLK"
+                (at 0 -6.604 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Datasheet" ""
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Description" "ASCII GerberSocket for net SWCLK"
+                (at 0 -9.144 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (symbol "SWCLK_0_1"
+                (arc
+                    (start 6.35 -2.54)
+                    (mid 3.7874 0)
+                    (end 6.35 2.54)
+                    (stroke
+                        (width 0)
+                        (type default)
+                    )
+                    (fill
+                        (type none)
+                    )
+                )
+            )
+            (symbol "SWCLK_1_1"
+                (text "SWCLK GerberSocket"
+                    (at 0 -4.064 0)
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (pin bidirectional line
+                    (at 0 0 0)
+                    (length 3.81)
+                    (name "SWCLK"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                    (number "1"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                )
+            )
+            (embedded_fonts no)
+        )
+    
+
+        (symbol "RESET"
+            (pin_numbers
+                (hide yes)
+            )
+            (exclude_from_sim no)
+            (in_bom no)
+            (on_board yes)
+            (property "Reference" "GS"
+                (at 0 3.048 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                )
+            )
+            (property "Value" "RESET"
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Footprint" "GerberSockets:RESET"
+                (at 0 -6.604 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Datasheet" ""
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Description" "ASCII GerberSocket for net RESET"
+                (at 0 -9.144 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (symbol "RESET_0_1"
+                (arc
+                    (start 6.35 -2.54)
+                    (mid 3.7874 0)
+                    (end 6.35 2.54)
+                    (stroke
+                        (width 0)
+                        (type default)
+                    )
+                    (fill
+                        (type none)
+                    )
+                )
+            )
+            (symbol "RESET_1_1"
+                (text "RESET GerberSocket"
+                    (at 0 -4.064 0)
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (pin bidirectional line
+                    (at 0 0 0)
+                    (length 3.81)
+                    (name "RESET"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                    (number "1"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                )
+            )
+            (embedded_fonts no)
+        )
+    
+
+        (symbol "TEST_1"
+            (pin_numbers
+                (hide yes)
+            )
+            (exclude_from_sim no)
+            (in_bom no)
+            (on_board yes)
+            (property "Reference" "GS"
+                (at 0 3.048 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                )
+            )
+            (property "Value" "TEST_1"
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Footprint" "GerberSockets:TEST_1"
+                (at 0 -6.604 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Datasheet" ""
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Description" "ASCII GerberSocket for net TEST_1"
+                (at 0 -9.144 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (symbol "TEST_1_0_1"
+                (arc
+                    (start 6.35 -2.54)
+                    (mid 3.7874 0)
+                    (end 6.35 2.54)
+                    (stroke
+                        (width 0)
+                        (type default)
+                    )
+                    (fill
+                        (type none)
+                    )
+                )
+            )
+            (symbol "TEST_1_1_1"
+                (text "TEST_1 GerberSocket"
+                    (at 0 -4.064 0)
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (pin bidirectional line
+                    (at 0 0 0)
+                    (length 3.81)
+                    (name "TEST_1"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                    (number "1"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                )
+            )
+            (embedded_fonts no)
+        )
+    
+
+        (symbol "TEST_2"
+            (pin_numbers
+                (hide yes)
+            )
+            (exclude_from_sim no)
+            (in_bom no)
+            (on_board yes)
+            (property "Reference" "GS"
+                (at 0 3.048 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                )
+            )
+            (property "Value" "TEST_2"
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Footprint" "GerberSockets:TEST_2"
+                (at 0 -6.604 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Datasheet" ""
+                (at 0 0 0)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (property "Description" "ASCII GerberSocket for net TEST_2"
+                (at 0 -9.144 0)
+                (do_not_autoplace)
+                (effects
+                    (font
+                        (size 1.27 1.27)
+                    )
+                    (hide yes)
+                )
+            )
+            (symbol "TEST_2_0_1"
+                (arc
+                    (start 6.35 -2.54)
+                    (mid 3.7874 0)
+                    (end 6.35 2.54)
+                    (stroke
+                        (width 0)
+                        (type default)
+                    )
+                    (fill
+                        (type none)
+                    )
+                )
+            )
+            (symbol "TEST_2_1_1"
+                (text "TEST_2 GerberSocket"
+                    (at 0 -4.064 0)
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (pin bidirectional line
+                    (at 0 0 0)
+                    (length 3.81)
+                    (name "TEST_2"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                    (number "1"
+                        (effects
+                            (font
+                                (size 1.27 1.27)
+                            )
+                        )
+                    )
+                )
+            )
+            (embedded_fonts no)
+        )
+    )
