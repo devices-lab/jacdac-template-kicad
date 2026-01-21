@@ -1,4 +1,4 @@
-# jacdac-kicad-template
+# jacdac-module-kicad
 
 Simple Jacdac RGB module KiCad project files for use as a template when creating new Jacdac modules. 
 
