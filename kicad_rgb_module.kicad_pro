@@ -518,7 +518,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers-bus-steve/",
+      "plot": "gerbers-bus-steve-flip/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": ".step",
