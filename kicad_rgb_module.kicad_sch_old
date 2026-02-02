@@ -6892,7 +6892,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965800"
+		(property "LCSC Part" "C434425"
 			(at 39.37 109.22 0)
 			(effects
 				(font
@@ -7538,15 +7538,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1663"
-			(at 149.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "00a6e6b6-5a89-4ac4-9aa3-ccedbe2ed48a")
 		)
@@ -7579,7 +7570,7 @@
 				)
 			)
 		)
-		(property "Value" "NH-B2020RGBA-GF"
+		(property "Value" "NH-B2020RGBA-HF"
 			(at 173.736 119.38 0)
 			(effects
 				(font
@@ -7614,7 +7605,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52212030"
+		(property "LCSC Part" "C108793"
 			(at 170.18 154.94 0)
 			(effects
 				(font
@@ -7623,7 +7614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "SMD-4P,2.1x2.1mm"
+		(property "Package" "SMD,2.1x2.1mm"
 			(at 170.18 134.62 0)
 			(effects
 				(font
@@ -7767,15 +7758,6 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 130.81 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85815"
-			(at 130.81 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +7978,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C128060"
+		(property "LCSC Part" "C22808"
 			(at 182.88 142.24 90)
 			(effects
 				(font
@@ -8362,15 +8344,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
-			(at 156.21 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ea482331-43a4-4e75-afac-025a896214ee")
 		)
@@ -8638,7 +8611,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C128060"
+		(property "LCSC Part" "C22808"
 			(at 182.88 127 90)
 			(effects
 				(font
@@ -9818,15 +9791,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 237.49 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "749ccbdb-3694-4d57-94e0-a209197e8ef4")
 		)
@@ -9894,7 +9858,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C128060"
+		(property "LCSC Part" "C22808"
 			(at 182.88 134.62 90)
 			(effects
 				(font
@@ -10115,7 +10079,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965800"
+		(property "LCSC Part" "C434425"
 			(at 39.37 121.92 0)
 			(effects
 				(font

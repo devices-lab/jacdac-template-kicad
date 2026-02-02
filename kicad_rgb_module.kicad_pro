@@ -518,8 +518,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers-bus-steve-flip/",
-      "pos_files": "",
+      "plot": "gerbers-bus-edgetest/",
+      "pos_files": "./weird-origin",
       "specctra_dsn": "",
       "step": ".step",
       "svg": "",
@@ -722,6 +722,12 @@
           "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
           "show": false
         }
       ],
