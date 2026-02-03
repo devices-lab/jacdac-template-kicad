@@ -14,6 +14,113 @@
 		(comment 3 "RGB LED Jacdac Module (STM32G0 based)")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5168,7 +5275,7 @@
 		(uuid "fb64568b-c211-49ee-9f08-2161089f2aaf")
 	)
 	(junction
-		(at 247.65 97.79)
+		(at 251.46 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "174636c7-e432-4335-8816-bdc95758045f")
@@ -5216,6 +5323,12 @@
 		(uuid "60aff486-e7da-475e-b159-d901542aab1b")
 	)
 	(junction
+		(at 246.38 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "619686f9-07b4-4355-aecd-2052e83e0598")
+	)
+	(junction
 		(at 64.77 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5256,6 +5369,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d216aa28-fd2c-4143-9bb8-1a5ec38b4ef1")
+	)
+	(junction
+		(at 246.38 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d84b6200-34d1-4f16-b958-0c004115f9ff")
 	)
 	(junction
 		(at 50.8 45.72)
@@ -5369,7 +5488,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 97.79) (xy 233.68 97.79)
+			(xy 227.33 97.79) (xy 237.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5419,7 +5538,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 97.79) (xy 259.08 97.79)
+			(xy 251.46 97.79) (xy 262.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5536,6 +5655,16 @@
 			(type default)
 		)
 		(uuid "3a4126d1-3adf-4329-a26b-02313a2bf4c5")
+	)
+	(wire
+		(pts
+			(xy 246.38 133.35) (xy 262.89 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c998265-f1d5-43c7-95ab-1844e6aba5a7")
 	)
 	(wire
 		(pts
@@ -5669,6 +5798,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 144.78) (xy 262.89 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eaf6042-cca1-4ed6-8832-7444b1ddeae4")
+	)
+	(wire
+		(pts
 			(xy 107.95 59.69) (xy 107.95 62.23)
 		)
 		(stroke
@@ -5739,7 +5878,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 92.71) (xy 247.65 97.79)
+			(xy 251.46 92.71) (xy 251.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5769,7 +5908,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 132.08) (xy 226.06 132.08)
+			(xy 209.55 132.08) (xy 224.79 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5879,7 +6018,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 109.22) (xy 259.08 109.22)
+			(xy 251.46 109.22) (xy 262.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5909,7 +6048,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 121.92) (xy 259.08 121.92)
+			(xy 251.46 121.92) (xy 262.89 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5919,7 +6058,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 97.79) (xy 247.65 97.79)
+			(xy 245.11 97.79) (xy 251.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6069,7 +6208,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 144.78) (xy 259.08 144.78)
+			(xy 237.49 144.78) (xy 246.38 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6229,7 +6368,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 133.35) (xy 259.08 133.35)
+			(xy 241.3 133.35) (xy 246.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6239,7 +6378,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 120.65) (xy 226.06 120.65)
+			(xy 213.36 120.65) (xy 224.79 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6249,7 +6388,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 107.95) (xy 226.06 107.95)
+			(xy 213.36 107.95) (xy 224.79 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6308,7 +6447,7 @@
 		(uuid "fdbce8bf-e5d2-410a-b6c0-cc5d1e013b27")
 	)
 	(label "nRESET"
-		(at 223.52 97.79 0)
+		(at 227.33 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6328,7 +6467,7 @@
 		(uuid "1309372f-36a6-40db-afff-cc08cea0df9f")
 	)
 	(label "SWDIO"
-		(at 247.65 121.92 0)
+		(at 251.46 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6378,7 +6517,7 @@
 		(uuid "491b83a4-43fe-400b-82d4-a64dff295023")
 	)
 	(label "JD_DATA"
-		(at 214.63 107.95 0)
+		(at 213.36 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6418,7 +6557,7 @@
 		(uuid "647bcc55-a3b6-4001-8cb2-229b390f080a")
 	)
 	(label "nRESET-SAFE"
-		(at 247.65 92.71 0)
+		(at 251.46 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6508,7 +6647,7 @@
 		(uuid "b23254a3-f268-4a24-aad8-47a86c4e91a8")
 	)
 	(label "SWCLK"
-		(at 247.65 109.22 0)
+		(at 251.46 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6548,7 +6687,7 @@
 		(uuid "d62cfd9c-fa09-4cdb-89ed-3a0e08d7f81e")
 	)
 	(label "SERIAL"
-		(at 247.65 144.78 0)
+		(at 237.49 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6558,7 +6697,7 @@
 		(uuid "d86070a6-3652-4638-9ee5-9740133823a4")
 	)
 	(label "JD_PWR"
-		(at 214.63 120.65 0)
+		(at 213.36 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6685,7 +6824,7 @@
 	)
 	(symbol
 		(lib_id "GerberSockets:JD_DATA")
-		(at 226.06 107.95 0)
+		(at 224.79 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6693,7 +6832,7 @@
 		(dnp no)
 		(uuid "1e3673ad-32fe-4e9e-ab1f-375720ceb14d")
 		(property "Reference" "GS2"
-			(at 226.06 104.902 0)
+			(at 224.79 104.902 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6702,7 +6841,7 @@
 			)
 		)
 		(property "Value" "JD_DATA"
-			(at 226.06 107.95 0)
+			(at 224.79 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +6850,7 @@
 			)
 		)
 		(property "Footprint" "GerberSockets:JD_DATA"
-			(at 226.06 114.554 0)
+			(at 224.79 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +6859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 107.95 0)
+			(at 224.79 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +6868,7 @@
 			)
 		)
 		(property "Description" "ASCII GerberSocket for net JD_DATA"
-			(at 226.06 117.094 0)
+			(at 224.79 117.094 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6818,7 +6957,7 @@
 	)
 	(symbol
 		(lib_id "GerberSockets:JD_PWR")
-		(at 226.06 120.65 0)
+		(at 224.79 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6827,7 +6966,7 @@
 		(fields_autoplaced yes)
 		(uuid "21371e1f-5541-4936-abbb-5e742dacec63")
 		(property "Reference" "GS3"
-			(at 226.06 117.602 0)
+			(at 224.79 117.602 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6836,7 +6975,7 @@
 			)
 		)
 		(property "Value" "JD_PWR"
-			(at 226.06 120.65 0)
+			(at 224.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6845,7 +6984,7 @@
 			)
 		)
 		(property "Footprint" "GerberSockets:JD_PWR"
-			(at 226.06 127.254 0)
+			(at 224.79 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +6993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 120.65 0)
+			(at 224.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,7 +7002,7 @@
 			)
 		)
 		(property "Description" "ASCII GerberSocket for net JD_PWR"
-			(at 226.06 129.794 0)
+			(at 224.79 129.794 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7389,7 +7528,7 @@
 	)
 	(symbol
 		(lib_id "GerberSockets:SWCLK")
-		(at 259.08 109.22 0)
+		(at 262.89 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7398,7 +7537,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c655482-3947-4565-8d25-f84140df10be")
 		(property "Reference" "GS5"
-			(at 259.08 106.172 0)
+			(at 262.89 106.172 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7407,7 +7546,7 @@
 			)
 		)
 		(property "Value" "SWCLK"
-			(at 259.08 109.22 0)
+			(at 262.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +7555,7 @@
 			)
 		)
 		(property "Footprint" "GerberSockets:SWCLK"
-			(at 259.08 115.824 0)
+			(at 262.89 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 109.22 0)
+			(at 262.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7573,7 @@
 			)
 		)
 		(property "Description" "ASCII GerberSocket for net SWCLK"
-			(at 259.08 118.364 0)
+			(at 262.89 118.364 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8282,6 +8421,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6212e69e-316d-4d90-9ab5-35434ab3da8a")
+		(property "Reference" "TP2"
+			(at 247.904 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 248.92 142.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jacdac_Application:TestPoint_Pad_D1.0mm"
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ab81f4e-dcb3-4809-92c7-666ad6e50ffb")
+		)
+		(instances
+			(project ""
+				(path "/9a8e7fbc-34f9-4889-88fa-a265258a8f63"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 44.45 0)
 		(unit 1)
@@ -8434,7 +8640,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 132.08 0)
+		(at 209.55 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8443,7 +8649,7 @@
 		(fields_autoplaced yes)
 		(uuid "72147222-ad41-413b-b340-1858dad02454")
 		(property "Reference" "#PWR022"
-			(at 210.82 138.43 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +8658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 137.16 0)
+			(at 209.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,7 +8666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 132.08 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8469,7 +8675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 132.08 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8478,7 +8684,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 132.08 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8706,7 @@
 	)
 	(symbol
 		(lib_id "GerberSockets:GND")
-		(at 226.06 132.08 0)
+		(at 224.79 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8509,7 +8715,7 @@
 		(fields_autoplaced yes)
 		(uuid "808b99b1-cce5-4c2a-8a97-174374c513d0")
 		(property "Reference" "GS1"
-			(at 226.06 129.032 0)
+			(at 224.79 129.032 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8518,7 +8724,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 132.08 0)
+			(at 224.79 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,7 +8733,7 @@
 			)
 		)
 		(property "Footprint" "GerberSockets:GND"
-			(at 226.06 138.684 0)
+			(at 224.79 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,7 +8742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 132.08 0)
+			(at 224.79 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +8751,7 @@
 			)
 		)
 		(property "Description" "ASCII GerberSocket for net GND"
-			(at 226.06 141.224 0)
+			(at 224.79 141.224 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9294,7 +9500,7 @@
 	)
 	(symbol
 		(lib_id "GerberSockets:SERIAL")
-		(at 259.08 144.78 0)
+		(at 262.89 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9303,7 +9509,7 @@
 		(fields_autoplaced yes)
 		(uuid "b76dcf61-9064-4455-8379-5153aa596e52")
 		(property "Reference" "GS8"
-			(at 259.08 141.732 0)
+			(at 262.89 141.732 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9312,7 +9518,7 @@
 			)
 		)
 		(property "Value" "SERIAL"
-			(at 259.08 144.78 0)
+			(at 262.89 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,7 +9527,7 @@
 			)
 		)
 		(property "Footprint" "GerberSockets:SERIAL"
-			(at 259.08 151.384 0)
+			(at 262.89 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,7 +9536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 144.78 0)
+			(at 262.89 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +9545,7 @@
 			)
 		)
 		(property "Description" "ASCII GerberSocket for net SERIAL"
-			(at 259.08 153.924 0)
+			(at 262.89 153.924 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9727,7 +9933,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WS")
-		(at 237.49 97.79 180)
+		(at 241.3 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9736,7 +9942,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1f86e39-d1d7-4bbf-8051-1f7950eafee0")
 		(property "Reference" "D9"
-			(at 237.49 91.44 0)
+			(at 241.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +9950,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 237.49 93.98 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,7 +9958,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 237.49 93.345 0)
+			(at 241.3 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +9967,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 237.49 97.79 0)
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +9976,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 237.49 97.79 0)
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +9985,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 237.49 97.79 0)
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9788,7 +9994,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 237.49 97.79 0)
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,7 +10003,7 @@
 			)
 		)
 		(property "LCSC Part" "C2128"
-			(at 237.49 97.79 0)
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +10179,7 @@
 	)
 	(symbol
 		(lib_id "GerberSockets:RESET")
-		(at 259.08 97.79 0)
+		(at 262.89 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9982,7 +10188,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7b62525-14f8-43ec-9d5f-9bead9abbd45")
 		(property "Reference" "GS4"
-			(at 259.08 94.742 0)
+			(at 262.89 94.742 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9991,7 +10197,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 259.08 97.79 0)
+			(at 262.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +10206,7 @@
 			)
 		)
 		(property "Footprint" "GerberSockets:RESET"
-			(at 259.08 104.394 0)
+			(at 262.89 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +10215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 97.79 0)
+			(at 262.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +10224,7 @@
 			)
 		)
 		(property "Description" "ASCII GerberSocket for net RESET"
-			(at 259.08 106.934 0)
+			(at 262.89 106.934 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10128,7 +10334,7 @@
 	)
 	(symbol
 		(lib_id "GerberSockets:3V3")
-		(at 259.08 133.35 0)
+		(at 262.89 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10137,7 +10343,7 @@
 		(fields_autoplaced yes)
 		(uuid "d94e2693-0088-43ac-a600-944ced636a78")
 		(property "Reference" "GS7"
-			(at 259.08 130.302 0)
+			(at 262.89 130.302 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10146,7 +10352,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 259.08 133.35 0)
+			(at 262.89 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +10361,7 @@
 			)
 		)
 		(property "Footprint" "GerberSockets:3V3"
-			(at 259.08 139.954 0)
+			(at 262.89 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +10370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 133.35 0)
+			(at 262.89 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10379,7 @@
 			)
 		)
 		(property "Description" "ASCII GerberSocket for net 3V3"
-			(at 259.08 142.494 0)
+			(at 262.89 142.494 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10331,7 +10537,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 243.84 133.35 0)
+		(at 241.3 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10340,7 +10546,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0926441-e9ee-416a-8696-45eeb2b2b50f")
 		(property "Reference" "#PWR023"
-			(at 243.84 137.16 0)
+			(at 241.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10555,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 243.84 128.27 0)
+			(at 241.3 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +10563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 133.35 0)
+			(at 241.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,7 +10572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 133.35 0)
+			(at 241.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,7 +10581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 243.84 133.35 0)
+			(at 241.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +10801,7 @@
 	)
 	(symbol
 		(lib_id "GerberSockets:SWDIO~^")
-		(at 259.08 121.92 0)
+		(at 262.89 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10604,7 +10810,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8f9836d-1dfd-420f-b6f7-1097e0e324fb")
 		(property "Reference" "GS6"
-			(at 259.08 118.872 0)
+			(at 262.89 118.872 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10613,7 +10819,7 @@
 			)
 		)
 		(property "Value" "SWDIO~^"
-			(at 259.08 121.92 0)
+			(at 262.89 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +10828,7 @@
 			)
 		)
 		(property "Footprint" "GerberSockets:SWDIO~^"
-			(at 259.08 128.524 0)
+			(at 262.89 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10631,7 +10837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 121.92 0)
+			(at 262.89 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10640,7 +10846,7 @@
 			)
 		)
 		(property "Description" "ASCII GerberSocket for net SWDIO~^"
-			(at 259.08 131.064 0)
+			(at 262.89 131.064 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10736,6 +10942,73 @@
 			(project ""
 				(path "/9a8e7fbc-34f9-4889-88fa-a265258a8f63"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1f311d3-a477-4557-ab43-89aea6595e39")
+		(property "Reference" "TP1"
+			(at 247.904 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 248.92 131.3179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jacdac_Application:TestPoint_Pad_D1.0mm"
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "536fc396-1f98-494a-88ba-2da909f2ca8f")
+		)
+		(instances
+			(project ""
+				(path "/9a8e7fbc-34f9-4889-88fa-a265258a8f63"
+					(reference "TP1")
 					(unit 1)
 				)
 			)

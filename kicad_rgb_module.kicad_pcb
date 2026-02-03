@@ -1910,7 +1910,7 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "jacdac_hole_DATA_MH1"
 			(at 0.6 -3 90)
 			(layer "Cmts.User")
 			(hide yes)
@@ -1935,7 +1935,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1952,7 +1952,7 @@
 		(path "/d3a5c977-9358-44a4-ba14-93173391c0d3")
 		(sheetname "/")
 		(sheetfile "kicad_rgb_module.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -2.5)
@@ -6170,6 +6170,7 @@
 		(property "Reference" "EC2"
 			(at 0.4 -4.8 0)
 			(layer "Cmts.User")
+			(hide yes)
 			(uuid "bc2a167b-05ec-4223-a54e-6201a75b03b3")
 			(effects
 				(font
@@ -9202,7 +9203,7 @@
 				)
 			)
 		)
-		(property "Description" "SERIAL GerberSocket"
+		(property "Description" "ASCII GerberSocket for net SERIAL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9218,7 +9219,7 @@
 		(path "/b76dcf61-9064-4455-8379-5153aa596e52")
 		(sheetname "/")
 		(sheetfile "kicad_rgb_module.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_line
 			(start 0 -0.5)
 			(end 0 0.5)
@@ -9412,7 +9413,7 @@
 				)
 			)
 		)
-		(property "Description" "3V3 GerberSocket"
+		(property "Description" "ASCII GerberSocket for net 3V3"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9428,7 +9429,7 @@
 		(path "/d94e2693-0088-43ac-a600-944ced636a78")
 		(sheetname "/")
 		(sheetfile "kicad_rgb_module.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_line
 			(start 0 -0.5)
 			(end 0 0.5)
@@ -9545,6 +9546,150 @@
 					(xy 98.396677 74.695619) (xy 98.304381 74.603323) (xy 98.191342 74.53806) (xy 98.065263 74.504278)
 				)
 			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Jacdac_Application:TestPoint_Pad_D1.0mm"
+		(layer "F.Cu")
+		(uuid "c77a5593-087f-4eec-9362-ab67750b51aa")
+		(at 97.1 68.35)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP2"
+			(at 0 -1.448 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "91b1e6a2-0c5c-46df-a354-44b03e2643a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d050b231-1207-4a3b-b23d-e477c84c7995")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ade8a55-29fa-44f5-9b5a-4014b042c0db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c0f7053-ee58-43eb-bb71-f407afda4ece")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/6212e69e-316d-4d90-9ab5-35434ab3da8a")
+		(sheetname "/")
+		(sheetfile "kicad_rgb_module.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net 14 "/SERIAL")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "2a46bb13-8600-46d2-a43c-bede8de03796")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Jacdac_Application:TestPoint_Pad_D1.0mm"
+		(layer "F.Cu")
+		(uuid "d3295f71-e2de-4fba-9d13-aa25607d462a")
+		(at 82.75 77.65)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP1"
+			(at 0 -1.448 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4d1ca303-d857-4b5a-a6f9-d9aaa0dc257c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f28fc79-4a8f-4b5c-bace-58b292d27265")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d58daa4d-2b0d-419f-a2c6-59afb51cc7a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c4a12f2-2338-4a4d-945f-1bec75343eda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f1f311d3-a477-4557-ab43-89aea6595e39")
+		(sheetname "/")
+		(sheetfile "kicad_rgb_module.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net 2 "+3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "2df6a036-761e-48c0-a112-d1632f0271af")
 		)
 		(embedded_fonts no)
 	)
@@ -10445,6 +10590,7 @@
 		(property "Reference" "EC1"
 			(at 0.4 -4.8 0)
 			(layer "Cmts.User")
+			(hide yes)
 			(uuid "95c560b6-bef8-4504-9cab-54189771d327")
 			(effects
 				(font
@@ -13877,6 +14023,14 @@
 		(uuid "0b11bbb0-b799-4a6d-83a7-9ed027dde514")
 	)
 	(segment
+		(start 82.75 77.65)
+		(end 82.75 76.826)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "0b283d78-2273-429b-8a4a-d99642b8c22b")
+	)
+	(segment
 		(start 92.12 79.045)
 		(end 92.7 79.625)
 		(width 0.2)
@@ -13974,11 +14128,19 @@
 	)
 	(segment
 		(start 84.524 76.776)
-		(end 79.674 76.776)
+		(end 82.8 76.776)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "9c059bf9-a172-4767-9917-0a54446054f7")
+	)
+	(segment
+		(start 82.7 76.776)
+		(end 79.674 76.776)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "a3238f89-3f84-45f4-8150-18727a926e28")
 	)
 	(segment
 		(start 88.5 71)
@@ -14027,6 +14189,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "c376dcd7-5b4c-4056-a965-eca1b4f7e2e9")
+	)
+	(segment
+		(start 82.75 76.826)
+		(end 82.7 76.776)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "c4e06ce1-5218-4d8d-96aa-6fb1e26a6da9")
 	)
 	(segment
 		(start 91.268237 76.298)
@@ -14099,6 +14269,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "e239c609-7310-4211-bd01-6d8fe0e6ee80")
+	)
+	(segment
+		(start 82.8 76.776)
+		(end 82.7 76.776)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "e3ec3f8a-5a23-42c7-acf9-2018833eb253")
 	)
 	(segment
 		(start 95.8 74.5)
@@ -14733,12 +14911,28 @@
 		(uuid "57c120d8-dd82-49b2-9e4d-32af7ac10fd9")
 	)
 	(segment
+		(start 97.1 72.456123)
+		(end 97.1 68.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "5ef58cf8-34b2-4e02-ae3c-640a832c1245")
+	)
+	(segment
 		(start 95.806123 73.75)
 		(end 98 73.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 14)
 		(uuid "8174b265-8421-46e9-bdeb-ec0de8669ec8")
+	)
+	(segment
+		(start 95.806123 73.75)
+		(end 97.1 72.456123)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "ac338ba0-7041-4391-a6a8-23e82d20fb05")
 	)
 	(segment
 		(start 94.08 78.98)
