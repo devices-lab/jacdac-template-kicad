@@ -729,6 +729,24 @@
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part type",
+          "name": "Part type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Basic",
+          "name": "Basic",
+          "show": false
         }
       ],
       "filter_string": "",
