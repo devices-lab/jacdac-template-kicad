@@ -7,6 +7,7 @@ Based on Altium schematics from the [jacdac-ddk](https://github.com/jacdac/jacda
 > [!NOTE]
 > The hardware has not been ordered and tested yet
 
-  <img width="300" alt="image" src="https://github.com/user-attachments/assets/3dba2ecd-6d0e-4edc-b767-4797b60e0d2f" />
-<img width="289" alt="image" src="https://github.com/user-attachments/assets/92fb9f2e-af2a-4ee3-8984-1c6726b6239e" />
-<img width="1221" height="843" alt="image" src="https://github.com/user-attachments/assets/04281ac0-96d0-46d5-8e59-c3155af62921" />
+  <img width="305" alt="image" src="https://github.com/user-attachments/assets/423bf6c6-366c-44d1-ba45-c44d8af13a06" />
+<img width="289" alt="image" src="https://github.com/user-attachments/assets/447b0e74-a62d-4660-91b7-2d63118ed6e3" />
+<img width="1221" height="843" alt="image" src="https://github.com/user-attachments/assets/1df044b2-9ca8-4070-97ba-e5c04ffd9964" />
+
