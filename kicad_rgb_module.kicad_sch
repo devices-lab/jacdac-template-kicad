@@ -4313,6 +4313,10 @@
 		(at 127 110.49)
 		(uuid "f8ebb8b6-0112-436a-964e-001cfdfdc532")
 	)
+	(no_connect
+		(at 78.74 113.03)
+		(uuid "fa823917-f2db-40e6-bd71-efde2fcdd8fe")
+	)
 	(wire
 		(pts
 			(xy 149.86 38.1) (xy 152.4 38.1)
@@ -4452,16 +4456,6 @@
 			(type default)
 		)
 		(uuid "33fad527-3990-45b1-8ac0-ae80d57a1919")
-	)
-	(wire
-		(pts
-			(xy 77.47 113.03) (xy 78.74 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34bfcca9-f4ae-4468-8d65-cccdbd6117c4")
 	)
 	(wire
 		(pts
@@ -5243,6 +5237,16 @@
 		)
 		(uuid "2c4cf755-beb7-4ff0-9efc-786b4141262d")
 	)
+	(label "nRESET"
+		(at 22.86 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44ecd5c8-656f-4d4b-bdf5-dee1897ef42d")
+	)
 	(label "JD_PWR"
 		(at 224.79 49.53 90)
 		(effects
@@ -5262,16 +5266,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f912f63-c7ff-4376-9727-1769577162e4")
-	)
-	(label "SERIAL"
-		(at 77.47 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f85bc9c-0922-4927-b715-bb0bcf35e3c7")
 	)
 	(label "SWDIO"
 		(at 45.72 162.56 0)
@@ -5322,16 +5316,6 @@
 			(justify right bottom)
 		)
 		(uuid "ad840414-eae6-42e7-826f-75b09b492791")
-	)
-	(label "nRESET-SAFE"
-		(at 22.86 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b23254a3-f268-4a24-aad8-47a86c4e91a8")
 	)
 	(label "JD_DATA_MCU"
 		(at 128.27 97.79 0)

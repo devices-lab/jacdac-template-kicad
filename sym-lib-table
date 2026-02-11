@@ -3,5 +3,5 @@
   (lib (name "Jacdac")(type "KiCad")(uri "${KIPRJMOD}/library/Jacdac/Jacdac.kicad_sym")(options "")(descr ""))
   (lib (name "Jacdac_Components")(type "KiCad")(uri "${KIPRJMOD}/library/Jacdac_Components/Jacdac_Components.kicad_sym")(options "")(descr ""))
   (lib (name "Jacdac_Application")(type "KiCad")(uri "${KIPRJMOD}/library/Jacdac_Application/Jacdac_Application.kicad_sym")(options "")(descr ""))
-  (lib (name "GerberSockets")(type "KiCad")(uri "${KIPRJMOD}/library/GerberSockets/GerberSockets.kicad_sym")(options "")(descr ""))
+  (lib (name "GerberSockets")(type "KiCad")(uri "${KIPRJMOD}/library/GerberSockets/GerberSockets.kicad_sym")(options "")(descr "")(disabled)(hidden))
 )
