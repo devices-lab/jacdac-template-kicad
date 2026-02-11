@@ -1,8 +1,10 @@
-# jacdac-module-kicad
+# jacdac-template-kicad
 
 Simple Jacdac RGB module KiCad project files for use as a template when creating new Jacdac modules. 
 
-Based on Altium schematics from the [jacdac-ddk](https://github.com/jacdac/jacdac-ddk) and the [Jacdac KiCad library](https://github.com/mac-aron/jacdac-kicad)
+Based on Altium schematics from the [jacdac-ddk](https://github.com/jacdac/jacdac-ddk) and the [Jacdac KiCad library](https://github.com/mac-aron/jacdac-kicad).
+
+Check the [neopixel-gerbersockets](../../tree/neopixel-gerbersockets) branch for a version with GerberSockets added.
 
 > [!NOTE]
 > The hardware has not been ordered and tested yet
