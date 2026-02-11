@@ -7,7 +7,7 @@ Based on Altium schematics from the [jacdac-ddk](https://github.com/jacdac/jacda
 Check the [neopixel-gerbersockets](../../tree/neopixel-gerbersockets) branch for a version with GerberSockets added.
 
 > [!NOTE]
-> The hardware has not been ordered and tested yet
+> The hardware has not been tested yet
 
   <img width="305" alt="image" src="https://github.com/user-attachments/assets/423bf6c6-366c-44d1-ba45-c44d8af13a06" />
 <img width="289" alt="image" src="https://github.com/user-attachments/assets/447b0e74-a62d-4660-91b7-2d63118ed6e3" />
