@@ -1,6 +1,18 @@
 {
   "jobs": [
     {
+      "description": "Delete old gerbers folder",
+      "id": "0c6d7f3e-1b2a-4c5d-9e8f-a1b2c3d4e5f6",
+      "settings": {
+        "command": "python -c \"import os,shutil;p=r'${KIPRJMOD}';p=os.getcwd() if p[0]=='$' else p;g=os.path.join(p,'gerbers');shutil.rmtree(g,ignore_errors=True)\"",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "",
+        "record_output": false
+      },
+      "type": "special_execute"
+    },
+    {
       "description": "",
       "id": "3f4414fa-57b0-45b3-89e5-1af01da63206",
       "settings": {
@@ -53,6 +65,7 @@
           "F.Paste",
           "F.SilkS",
           "F.Fab",
+          "User.1",
           "Edge.Cuts"
         ],
         "layers_to_include_on_all_layers": [],
@@ -98,9 +111,9 @@
       "id": "ede97328-d0f0-4c37-ad9b-377da95b8ee6",
       "settings": {
         "bom_format_preset_name": "CSV",
-        "bom_preset_name": "",
+        "bom_preset_name": "JLC PCBA",
         "description": "",
-        "exclude_dnp": true,
+        "exclude_dnp": false,
         "field_delimiter": ",",
         "fields_group_by": [
           "Value"
@@ -147,7 +160,7 @@
         "include_excluded_from_bom": false,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "kicad_rgb_module.csv",
+        "output_filename": "${PROJECTNAME}-BOM.csv",
         "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
@@ -157,7 +170,7 @@
       "type": "sch_export_bom"
     },
     {
-      "description": "Export position data (CPL) [incorrect column names for JLCPCB]",
+      "description": "Export position data (CPL)",
       "id": "86ec677f-2e72-4e0d-9b7b-cdb54a730828",
       "settings": {
         "description": "",
@@ -166,7 +179,7 @@
         "format": "csv",
         "gerber_board_edge": true,
         "negate_bottom_x": false,
-        "output_filename": "",
+        "output_filename": "${PROJECTNAME}-CPL.csv",
         "side": "both",
         "single_file": true,
         "smd_only": false,
@@ -174,6 +187,30 @@
         "use_drill_place_file_origin": true
       },
       "type": "pcb_export_pos"
+    },
+    {
+      "description": "Rename CPL columns for JLCPCB",
+      "id": "1d7e8f4a-2c3b-4d6e-8f9a-b2c3d4e5f6a7",
+      "settings": {
+        "command": "python -c \"import os,glob;p=r'${KIPRJMOD}';p=os.getcwd() if p[0]=='$' else p;g=os.path.join(p,'gerbers');f=glob.glob(os.path.join(g,'*CPL*.csv'))[0];h,b=open(f).read().split(chr(10),1);m={'Ref':'Designator','PosX':'Mid X','PosY':'Mid Y','Rot':'Rotation','Side':'Layer'};open(f,'w').write(','.join(m.get(c,c) for c in h.split(','))+chr(10)+b)\"",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "",
+        "record_output": false
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "Zip gerbers folder",
+      "id": "2e8f9a5b-3d4c-4e7f-9a0b-c3d4e5f6a7b8",
+      "settings": {
+        "command": "python -c \"import os,shutil;p=r'${KIPRJMOD}';p=os.getcwd() if p[0]=='$' else p;g=os.path.join(p,'gerbers');shutil.make_archive(os.path.join(p,'${PROJECTNAME}-gerbers'),'zip',g)\"",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "",
+        "record_output": false
+      },
+      "type": "special_execute"
     }
   ],
   "meta": {
@@ -183,7 +220,25 @@
     {
       "description": "Export all (Gerbers, Drills, BOM, CPL)",
       "id": "5156222f-0ee7-407d-a088-30f2bf3becc5",
-      "only": [],
+      "only": [
+        "0c6d7f3e-1b2a-4c5d-9e8f-a1b2c3d4e5f6",
+        "3f4414fa-57b0-45b3-89e5-1af01da63206",
+        "bae4d4a7-7dc7-4970-a04d-135538556b8d",
+        "ede97328-d0f0-4c37-ad9b-377da95b8ee6",
+        "86ec677f-2e72-4e0d-9b7b-cdb54a730828"
+      ],
+      "settings": {
+        "output_path": "gerbers/"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "Post-process (fix CPL columns, zip gerbers)",
+      "id": "3f9a0b6c-4e5d-4f8a-0b1c-d4e5f6a7b8c9",
+      "only": [
+        "1d7e8f4a-2c3b-4d6e-8f9a-b2c3d4e5f6a7",
+        "2e8f9a5b-3d4c-4e7f-9a0b-c3d4e5f6a7b8"
+      ],
       "settings": {
         "output_path": "gerbers/"
       },
