@@ -17,6 +17,7 @@
       "id": "3f4414fa-57b0-45b3-89e5-1af01da63206",
       "settings": {
         "black_and_white": true,
+        "check_zones": false,
         "create_gerber_job_file": true,
         "crossout_dnp_footprints_on_fab_layers": true,
         "description": "",
@@ -82,7 +83,8 @@
         "subtract_solder_mask_from_silk": false,
         "use_drill_origin": true,
         "use_protel_file_extension": true,
-        "use_x2_format": true
+        "use_x2_format": true,
+        "variant": ""
       },
       "type": "pcb_export_gerbers"
     },
@@ -98,9 +100,12 @@
         "excellon.oval_drill_route": false,
         "format": "excellon",
         "generate_map": false,
+        "generate_report": false,
+        "generate_tenting": false,
         "gerber_precision": 5,
         "map_format": "pdf",
         "output_dir": "",
+        "report_filename": "",
         "units": "mm",
         "zero_format": "decimal"
       },
@@ -119,8 +124,8 @@
           "Value"
         ],
         "fields_labels": [
-          "Value",
-          "Reference",
+          "Comment",
+          "Designator",
           "Qty",
           "DNP",
           "Exclude from BOM",
@@ -135,8 +140,7 @@
           "Sim.Device",
           "Basic",
           "Part type",
-          "Sim.Type",
-          "Exclude from Simulation"
+          "Sim.Type"
         ],
         "fields_ordered": [
           "Value",
@@ -155,11 +159,10 @@
           "__Sim.Device",
           "__Basic",
           "__Part type",
-          "__Sim.Type",
-          "__${EXCLUDE_FROM_SIM}"
+          "__Sim.Type"
         ],
         "filter_string": "",
-        "include_excluded_from_bom": false,
+        "group_symbols": true,
         "keep_line_breaks": false,
         "keep_tabs": false,
         "output_filename": "${PROJECTNAME}-BOM.csv",
@@ -167,7 +170,8 @@
         "ref_range_delimiter": "",
         "sort_asc": true,
         "sort_field": "Value",
-        "string_delimiter": "\""
+        "string_delimiter": "\"",
+        "variant_names": []
       },
       "type": "sch_export_bom"
     },
@@ -176,6 +180,7 @@
       "id": "86ec677f-2e72-4e0d-9b7b-cdb54a730828",
       "settings": {
         "description": "",
+        "exclude_bom": false,
         "exclude_dnp": false,
         "exclude_footprints_with_th": false,
         "format": "csv",
@@ -186,7 +191,8 @@
         "single_file": true,
         "smd_only": false,
         "units": "mm",
-        "use_drill_place_file_origin": true
+        "use_drill_place_file_origin": true,
+        "variant": ""
       },
       "type": "pcb_export_pos"
     },
@@ -194,7 +200,7 @@
       "description": "Rename CPL columns for JLCPCB",
       "id": "1d7e8f4a-2c3b-4d6e-8f9a-b2c3d4e5f6a7",
       "settings": {
-        "command": "python -c \"import os,glob;p=r'${KIPRJMOD}';p=os.getcwd() if p[0]=='$' else p;g=os.path.join(p,'gerbers');f=glob.glob(os.path.join(g,'*CPL*.csv'))[0];h,b=open(f).read().split(chr(10),1);m={'Ref':'Designator','PosX':'Mid X','PosY':'Mid Y','Rot':'Rotation','Side':'Layer'};open(f,'w').write(','.join(m.get(c,c) for c in h.split(','))+chr(10)+b)\"",
+        "command": "python -c \"import os,sys,glob;p=r'${KIPRJMOD}';p=os.getcwd() if p[0]=='$' else p;g=os.path.join(p,'gerbers');c=glob.glob(os.path.join(g,'*CPL*.csv'));c or sys.exit('No CPL csv in '+g+' - did the export step fail?');f=c[0];h,b=open(f).read().split(chr(10),1);m={'Ref':'Designator','PosX':'Mid X','PosY':'Mid Y','Rot':'Rotation','Side':'Layer'};open(f,'w').write(','.join(m.get(c,c) for c in h.split(','))+chr(10)+b)\"",
         "description": "",
         "ignore_exit_code": false,
         "output_filename": "",
@@ -206,7 +212,7 @@
       "description": "Zip gerbers folder",
       "id": "2e8f9a5b-3d4c-4e7f-9a0b-c3d4e5f6a7b8",
       "settings": {
-        "command": "python -c \"import os,shutil;p=r'${KIPRJMOD}';p=os.getcwd() if p[0]=='$' else p;g=os.path.join(p,'gerbers');shutil.make_archive(os.path.join(p,'${PROJECTNAME}-gerbers'),'zip',g)\"",
+        "command": "python -c \"import os,shutil;p=r'${KIPRJMOD}';p=os.getcwd() if p[0]=='$' else p;g=os.path.join(p,'gerbers');shutil.make_archive(os.path.join(p,'gerbers-${PROJECTNAME}'),'zip',g)\"",
         "description": "",
         "ignore_exit_code": false,
         "output_filename": "",
