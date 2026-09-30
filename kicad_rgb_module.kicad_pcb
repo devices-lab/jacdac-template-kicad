@@ -2195,7 +2195,7 @@
 			(net 19 "/JD_DATA")
 			(pinfunction "MH1")
 			(pintype "input")
-			(uuid "29b35299-f065-420f-b285-fa6c717ade0a")
+			(uuid "1bc3e3a2-88c5-47a8-a7de-b71f67c16ef7")
 		)
 		(zone
 			(net 0)
