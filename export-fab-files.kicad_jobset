@@ -111,7 +111,7 @@
       "id": "ede97328-d0f0-4c37-ad9b-377da95b8ee6",
       "settings": {
         "bom_format_preset_name": "CSV",
-        "bom_preset_name": "JLC PCBA",
+        "bom_preset_name": "",
         "description": "",
         "exclude_dnp": false,
         "field_delimiter": ",",
@@ -135,7 +135,8 @@
           "Sim.Device",
           "Basic",
           "Part type",
-          "Sim.Type"
+          "Sim.Type",
+          "Exclude from Simulation"
         ],
         "fields_ordered": [
           "Value",
@@ -154,7 +155,8 @@
           "__Sim.Device",
           "__Basic",
           "__Part type",
-          "__Sim.Type"
+          "__Sim.Type",
+          "__${EXCLUDE_FROM_SIM}"
         ],
         "filter_string": "",
         "include_excluded_from_bom": false,
